@@ -1,0 +1,22 @@
+@media screen and (max-width: 776px){
+
+.chat{
+    flex:0.55;
+}
+}
+
+@media screen and (max-width: 375px){
+
+    .chat{
+        flex:0.75;
+    }
+
+    }
+
+    @media screen and (max-width: 411px){
+
+        .chat{
+            flex:0.75;
+        }
+    
+        }

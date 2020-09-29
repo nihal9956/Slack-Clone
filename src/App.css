@@ -1,0 +1,39 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    --slack-color:#3f0f40;
+}
+
+.app-body{
+    display: flex;
+}
+.Welcome__Note{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Welcome__Note>h1{
+    text-align: center;
+    margin-top:100%;
+    margin-left:330%;
+    width:100%;
+}
+
+.Welcome__Note>p{
+    text-align: center;
+    margin-left:330%;
+    width:100%;
+
+}
+
+.logo>img{
+
+    width:100px;
+    height:100px;
+    object-fit: contain;
+    margin-left:400%;
+}
+
+/* media query */

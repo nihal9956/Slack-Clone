@@ -1,0 +1,90 @@
+
+
+@media screen and (max-width: 1024px){
+
+    .sidebar{
+        flex:0.45;
+        overflow-x: hidden;
+    }
+    }
+
+@media screen and (max-width: 776px){
+
+    .sidebar{
+        flex:0.45;
+        overflow-x: hidden;
+    }
+    }
+    @media screen and (max-width: 375px){
+
+    .sidebar{
+        flex:0.25;
+        overflow-x: hidden;
+    }
+    .sidebar-info>h2{
+      font-size:8px;
+      margin-left:0;
+     
+    }
+    .sidebar-info>h3{
+        font-size:7px;
+      
+        
+        
+    }
+    
+    .sidebar-info>h3>.MuiSvgIcon-root{
+
+        font-size:10px;
+        margin-right:2px;
+    }
+
+    .sidebar-header{
+        flex-direction: column;
+    }
+    .sidebar-header>.MuiSvgIcon-root{
+      
+        
+        font-size:10px;
+        padding:5px;
+        margin-left:30px;
+    
+        
+    }
+    }
+    @media screen and (max-width: 411px){
+
+        .sidebar{
+            flex:0.25;
+            overflow-x: hidden;
+        }
+        .sidebar-info>h2{
+          font-size:8px;
+          margin-left:0;
+        }
+        .sidebar-info>h3{
+            font-size:7px;
+            max-width:50px;
+            
+            
+        }
+        
+        .sidebar-info>h3>.MuiSvgIcon-root{
+    
+            font-size:10px;
+            margin-right:2px;
+        }
+    
+        .sidebar-header{
+            flex-direction: column;
+        }
+        .sidebar-header>.MuiSvgIcon-root{
+          
+            
+            font-size:10px;
+            padding:5px;
+            margin-left:30px;
+        
+            
+        }
+        }
